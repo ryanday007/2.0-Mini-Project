@@ -9,89 +9,88 @@
   <div class="site-container">
     <body>
       <!-- begin nav -->
-      <section>
-        <nav>
-          <img
-            class="logo"
-            src="./2.0 Mini Project Assets/FES.svg"
-            alt="FES logo"
-          />
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#discord">Discord</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-        <header>
-          <div>
-            <h1>Best place to learn Frontend</h1>
-            <p>Go from absolute beginner to pro with a simplified process</p>
-            <button>Start Now!</button>
-            <figure>
-              <img
-                src="./2.0 Mini Project Assets/laptop.png"
-                alt="open laptop"
-              />
-            </figure>
-          </div>
-        </header>
-      </section>
+      <div id="nav" class="row">
+        <img
+          class="logo"
+          src="./2.0 Mini Project Assets/FES.svg"
+          alt="FES logo"
+        />
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#discord">Discord</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
       <!-- end nav -->
 
-      <main>
-        <!-- begin about -->
-        <section id="about">
+      <!-- begin header -->
+      <div id="header">
+        <div>
+          <h1>Best place to learn Frontend</h1>
+          <p>Go from absolute beginner to pro with a simplified process</p>
+          <button>Start Now!</button>
+        </div>
+        <div>
+          <figure>
+            <img src="./2.0 Mini Project Assets/laptop.png" alt="open laptop" />
+          </figure>
+        </div>
+      </div>
+      <!-- end header -->
+
+      <!-- begin about -->
+      <div id="about">
+        <div>
           <h2>About</h2>
-          <div>
-            <p>
-              Learn the fundamentals of frontend development, blah blah blah.
-            </p>
-            <p>
-              Build responsive websites and web applications blah blah blah.
-            </p>
-          </div>
-          <figure>
-            <img src="./2.0 Mini Project Assets/about.jpg" alt="About Us" />
-          </figure>
-        </section>
-        <!-- end about -->
+          <p>Learn the fundamentals of frontend development, blah blah blah.</p>
+          <p>Build responsive websites and web applications blah blah blah.</p>
+        </div>
 
-        <!-- begin discord -->
-        <section id="discord">
-          <h2>Discord</h2>
-          <figure>
-            <img
-              src="./2.0 Mini Project Assets/discord.png"
-              alt="Discord Community"
-            />
-          </figure>
-          <div>
-            <p>
-              Join our Discord community to connect with fellow learners and get
-              support.
-            </p>
-            <p>Join our Discord community blah blah blah.</p>
-          </div>
-        </section>
-        <!-- end discord -->
+        <figure>
+          <img src="./2.0 Mini Project Assets/about.jpg" alt="About Us" />
+        </figure>
+      </div>
+      <!-- end about -->
 
-        <!-- begin contact -->
-        <section id="contact">
-          <h2>Contact</h2>
-          <form action="">
-            <span>Email</span>
-            <input type="text" placeholder="jane.doe@example.com" />
-            <span>Message</span>
-            <textarea placeholder="Your message here..."></textarea>
-          </form>
-          <button>Submit</button>
-        </section>
-        <!-- end contact -->
-      </main>
+      <!-- begin discord -->
+      <div id="discord">
+        <h2>Discord</h2>
+        <figure>
+          <img
+            src="./2.0 Mini Project Assets/discord.png"
+            alt="Discord Community"
+          />
+        </figure>
+        <div>
+          <p>
+            Join our Discord community to connect with fellow learners and get
+            support.
+          </p>
+          <p>Join our Discord community blah blah blah.</p>
+        </div>
+      </div>
+      <!-- end discord -->
+
+      <!-- begin contact -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="">
+          <span>Email</span>
+          <input type="text" placeholder="jane.doe@example.com" />
+          <span>Message</span>
+          <textarea placeholder="Your message here..."></textarea>
+        </form>
+        <button>Submit</button>
+      </section>
+      <!-- end contact -->
 
       <!-- begin footer -->
       <footer>
-        <img src="./2.0 Mini Project Assets/FES.svg" alt="FES logo" />
+        <img
+          class="logo"
+          src="./2.0 Mini Project Assets/FES.svg"
+          alt="FES logo"
+        />
         <div>
           <ul>
             <li><a href="#about">About</a></li>
@@ -102,6 +101,7 @@
         </div>
         <p>Copyright Front End Simplified</p>
       </footer>
+
       <!-- end footer -->
     </body>
   </div>

@@ -3,27 +3,93 @@
 .site-container {
   max-width: 80%;
   margin: 0 auto;
+  padding: 0%;
 }
 
-nav {
-    background-color: cadetblue;
-    height: 70px;
-    display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 0px 20px;
-}
-nav ul {
-    display: flex;
+#nav {
+  background-color: #91d9da;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
 }
 
-nav li{
-    list-style: none;
-    padding: 0px 20px;
-    line-height: 70px;
+#nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav li {
+  padding: 0 20px;
+  line-height: 70px;
+}
+
+#nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+#nav a:hover {
+  text-decoration: underline;
+}
+
+#header {
+  display: flex;
+  background-color: #e5beb5;
+  color: white;
+  padding: 10%;
+}
+
+#header button {
+  background-color: #91d9da;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee6ca;
+  
+}
+
+#about img {
+  width: 60%;
+  height: auto;
+}
+
+#discord {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #c4dfe6;
+  padding: 10%;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer li {
+  list-style: none;
+  padding: 0px 20px;
+  line-height: 70px;
 }
 
 .logo {
-    width: 300px;
-    height: auto;
+  width: 300px;
+  height: auto;
+}
+
+footer {
+  background-color: cadetblue;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
 }
