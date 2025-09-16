@@ -6,10 +6,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <div class="site-container">
-    <body>
+  <body>
+    <div class="site-container">
       <!-- begin nav -->
-      <div id="nav" class="row">
+      <div id="nav">
         <img
           class="logo"
           src="./2.0 Mini Project Assets/FES.svg"
@@ -24,85 +24,113 @@
       <!-- end nav -->
 
       <!-- begin header -->
-      <div id="header">
-        <div>
-          <h1>Best place to learn Frontend</h1>
-          <p>Go from absolute beginner to pro with a simplified process</p>
-          <button>Start Now!</button>
+      <section id="header" class="section-wrapper">
+        <div class="two-column-section">
+          <div class="text-block">
+            <h1>Best place to learn Frontend</h1>
+            <p>Go from absolute beginner to pro with a simplified process</p>
+            <button>Start Now!</button>
+          </div>
+          <div class="media-block">
+            <figure>
+              <img
+                src="./2.0 Mini Project Assets/laptop.png"
+                alt="open laptop"
+              />
+            </figure>
+          </div>
         </div>
-        <div>
-          <figure>
-            <img src="./2.0 Mini Project Assets/laptop.png" alt="open laptop" />
-          </figure>
-        </div>
-      </div>
+      </section>
       <!-- end header -->
 
       <!-- begin about -->
-      <div id="about">
-        <div>
-          <h2>About</h2>
-          <p>Learn the fundamentals of frontend development, blah blah blah.</p>
-          <p>Build responsive websites and web applications blah blah blah.</p>
+      <section id="about" class="section-wrapper">
+        <h2>About</h2>
+        <div class="two-column-section">
+          <div class="text-block">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+              perspiciatis aliquam eaque consequatur modi nobis dolorem, enim
+              beatae! Perspiciatis nemo hic reiciendis rerum dicta accusantium
+              sequi soluta! Atque, deserunt libero.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              sit ut, adipisci magni obcaecati voluptate, dolorum ipsum vitae
+              impedit odit doloremque porro earum nihil quisquam et aliquam
+              rerum dolore iste?
+            </p>
+          </div>
+          <div class="media-block">
+            <figure>
+              <img src="./2.0 Mini Project Assets/about.jpg" alt="About Us" />
+            </figure>
+          </div>
         </div>
-
-        <figure>
-          <img src="./2.0 Mini Project Assets/about.jpg" alt="About Us" />
-        </figure>
-      </div>
+      </section>
       <!-- end about -->
 
-      <!-- begin discord -->
-      <div id="discord">
+      <section id="discord" class="section-wrapper">
         <h2>Discord</h2>
-        <figure>
-          <img
-            src="./2.0 Mini Project Assets/discord.png"
-            alt="Discord Community"
-          />
-        </figure>
-        <div>
-          <p>
-            Join our Discord community to connect with fellow learners and get
-            support.
-          </p>
-          <p>Join our Discord community blah blah blah.</p>
+        <div class="two-column-section">
+          <div class="media-block">
+            <figure>
+              <img
+                src="./2.0 Mini Project Assets/discord.png"
+                alt="Discord Community"
+              />
+            </figure>
+          </div>
+          <div class="text-block">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+              molestias debitis et ipsa aperiam. Voluptas sed dolores maiores,
+              numquam architecto nulla consequatur illum nostrum similique quis
+              optio cum, dolor vel?
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Asperiores culpa, aut hic assumenda ut molestiae. Alias, autem
+              quisquam facilis saepe cumque distinctio architecto ipsum dolores
+              quod aperiam ea porro mollitia.
+            </p>
+          </div>
         </div>
-      </div>
+      </section>
       <!-- end discord -->
 
       <!-- begin contact -->
-      <section id="contact">
+      <section id="contact" class="section-wrapper">
         <h2>Contact</h2>
         <form action="">
           <span>Email</span>
-          <input type="text" placeholder="jane.doe@example.com" />
+          <input type="email" placeholder="jane.doe@example.com" />
           <span>Message</span>
           <textarea placeholder="Your message here..."></textarea>
+          <button type="submit">Submit</button>
         </form>
-        <button>Submit</button>
       </section>
       <!-- end contact -->
 
       <!-- begin footer -->
-      <footer>
+      <div id="footer">
         <img
           class="logo"
           src="./2.0 Mini Project Assets/FES.svg"
           alt="FES logo"
         />
-        <div>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#discord">Discord</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li>Courses</li>
-          </ul>
-        </div>
+
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#discord">Discord</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>Courses</li>
+        </ul>
+
         <p>Copyright Front End Simplified</p>
-      </footer>
+      </div>
 
       <!-- end footer -->
-    </body>
-  </div>
+    </div>
+  </body>
 </html>
